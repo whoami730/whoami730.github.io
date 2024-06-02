@@ -72,5 +72,5 @@ defaults:
     values:
       is_post: false
       layout: single
-      permalink: /:basename
+      permalink: /:basename/
       author_profile: true
