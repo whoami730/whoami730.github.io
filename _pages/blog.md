@@ -1,6 +1,5 @@
 ---
 title: My Blogs
-permalink: /blog
 ---
 
 <ul>
