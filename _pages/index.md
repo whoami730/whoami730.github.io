@@ -3,13 +3,7 @@ title: Home
 permalink: /
 ---
 
-<h1>Latest Posts</h1>
+This is the home page buddy, what are you looking for?
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+- [Blogs](/blog/)
+- [About](/about.html)
