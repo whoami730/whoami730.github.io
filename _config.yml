@@ -1,14 +1,40 @@
-lsi: false
-safe: true
-source: /
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+title: My Homepage
+email: jsahil730@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is my personal homepage where I usually blog about fun stuff
+  in tech, rant or express my views.
+github_username:  whoami730
 
+# Build settings
 theme: jekyll-theme-minimal
-title: whoami730's homepage
-description: Bookmark this to keep an eye on my updates!
+plugins:
+  - jekyll-feed
+include: [_pages]
+defaults:
+  -
+    scope:
+      type: posts
+      path: _posts
+    values:
+      is_post: true
+      layout: post
+      permalink: /blog/:title/
+  -
+    scope:
+      type: pages
+      path: _pages
+    values:
+      is_post: false
+      layout: default
+
+-lsi: false
+-safe: true
+-source: /
+-highlighter: rouge
+-gist:
+-  noscript: false
+-kramdown:
+-  math_engine: mathjax
+-  syntax_highlighter: rouge
+
+

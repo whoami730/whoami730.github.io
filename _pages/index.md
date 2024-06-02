@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Home
+permalink: /
 ---
+
 <h1>Latest Posts</h1>
 
 <ul>
