@@ -1,6 +1,4 @@
 ---
-layout: post
-author: whoami730
 title: "Technical Interviews"
 ---
 
