@@ -9,6 +9,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is my personal homepage where I usually blog about fun stuff
   in tech, rant or express my views.
 logo: /assets/images/logo.jpg
+url: "https://whoami730.github.io"
+repository: "whoami730/whoami730.github.io"
 atom_feed:
   hide: true
 
@@ -72,6 +74,7 @@ defaults:
       layout: single
       permalink: /blog/:title/
       author_profile: true
+      show_date: true
       read_time: true
       comments: true
   -
