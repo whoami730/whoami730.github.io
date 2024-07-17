@@ -20,13 +20,12 @@ author:
   avatar: "/assets/images/me.png"
   bio: "Who am I?"
   email: jsahil730@gmail.com
+  github: whoami730
+  linkedin: sahil-jain-a637b0190
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/whoami730"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/sahil-jain-a637b0190/"
+    - label: "Resume"
+      url: "/assets/miscellaneous/resume.pdf"
+      icon: "fas fa-fw fa-file-pdf"
 
 comments:
   provider: "utterances"
@@ -63,7 +62,6 @@ defaults:
       show_date: true
       read_time: true
       comments: true
-      share: true
   -
     scope:
       type: pages
