@@ -1,6 +1,7 @@
 ---
 title: "Interviews & Feedback"
 excerpt: "Discussion around technical interviews and feedback to candidates on the same."
+last_modified_at: "2024-07-16" 
 ---
 
 Recently I came across [this article](https://interviewing.io/blog/no-engineer-has-ever-sued-a-company-because-of-constructive-post-interview-feedback-so-why-dont-employers-do-it)
